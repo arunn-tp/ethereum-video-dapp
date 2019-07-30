@@ -1,0 +1,152 @@
+I have successfully managed to deploy this DAPP on Ropsten Test net.
+
+you can find these contracts on https://ropsten.etherscan.io/ 
+
+VideoToken.sol 0x972f5Ef81F042C2118fB1018323060B6B47B96a2
+VideoTokenSale.sol 0xB6f7b9a331f76720Aa39C18B9091fEDf048f35fC
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Migrations.sol
+> Compiling ./contracts/VideoToken.sol
+> Compiling ./contracts/VideoTokenSale.sol
+> Artifacts written to /home/arun/ethereum-video-dapp/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.0+commit.1d4f565a.Emscripten.clang
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        6093871
+   > block timestamp:     1564519085
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.907985771999999999
+   > gas used:            269908
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000539816 ETH
+
+   -------------------------------------
+   > Total cost:         0.000539816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'VideoToken'
+   ----------------------
+   > block number:        6093873
+   > block timestamp:     1564519095
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.907124445999999999
+   > gas used:            403629
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000807258 ETH
+
+
+   Deploying 'VideoTokenSale'
+   --------------------------
+   > block number:        6093874
+   > block timestamp:     1564519106
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.905220769999999999
+   > gas used:            951838
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001903676 ETH
+
+   -------------------------------------
+   > Total cost:         0.002710934 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.00325075 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x9f7ebf4c2b1b7ce6fa8695fef694d130455d7c2e7e2ef994a796f65c1d5ff3c9
+   > Blocks: 1            Seconds: 53
+   > contract address:    0xB9d9c69c8486DEF31D2d5035A9c5A4224E7baa10
+   > block number:        6093874
+   > block timestamp:     1564519161
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.902827427999999999
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'VideoToken'
+   ----------------------
+   > transaction hash:    0xbf923a8d447262f1f9272d4a1d07fc8fcfb3e680cb4edca90093b08e7984b229
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x972f5Ef81F042C2118fB1018323060B6B47B96a2
+   > block number:        6093878
+   > block timestamp:     1564519189
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.893014167999999999
+   > gas used:            448629
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00897258 ETH
+
+
+   Deploying 'VideoTokenSale'
+   --------------------------
+   > transaction hash:    0xda0ae4c8f68388c0159900372016909d61894f5ad5266c3a96df58994362a490
+   > Blocks: 2            Seconds: 53
+   > contract address:    0xB6f7b9a331f76720Aa39C18B9091fEDf048f35fC
+   > block number:        6093881
+   > block timestamp:     1564519250
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.872777407999999999
+   > gas used:            1011838
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02023676 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02920934 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.0349075 ETH

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Video Gallery</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container" style="width: 80%;">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="text-center">Ethereum Video Gallery</h1>
+				<p>The idea behind this site is to reduce the middle man aggregator cost  for independent video content creators. The consumer of this site will be paying the content owners directly in ethers, the transaction is just between the consumer of the video and the creator of the video</p>
+				<hr/>
+				<br/>
+				<h6><p><b>1.</b>You can watch these video by paying for them in Ether, this is just the starting phase of this project.</p>
+					<p><b>2.</b>Im thinking  of creating a place where the user can buy custom tokens from this site and use those tokens to buy the videos</p> 
+					<p><b>3.</b>No points for guessing, the videos are obviously hosted on IPFS(Inter Planetory File System), a decentralized file system.</p>
+					<p><b>4.</b>For now you need to add the videos to ipfs manually and then paste the hash of the videos to the src of the video tag.</p>
+					<p><b>5.</b>Will build a UI for the User to add the Videos into IPFS and those videos will show up automatically on this home page</p>
+				</h6>
+				<hr/>
+				<br/>
+				
+			</div>
+			<div class="loader">
+				<p class="text-center">Please wait.... The App will will be ready soon</p>
+			</div>
+			<div id ="content"class="text-left" style="display: none;">
+				<div>
+					<p id="account-address"></p>
+				</div>
+				<p>The Price of each Video is <span class="token-price"></span> Ether.<strong> <== got this Value from Smart Contract</strong></p>
+				<br/>
+
+				<form onSubmit="App.buyVideo(); return false;" role="form">
+					<div class="form-group">
+						<div class="input-group">
+							<video id="video-thumbnail"></video>
+							<span class="input-group-btn">
+								<button id="buy-button1" type="submit" class="btn btn-primary btn-lg"></button>
+							</span>
+							<hr>
+						</div>
+					</div>
+				</form>
+				<h3 id="event-msg" style="color:blue;"></h3>
+				<video id="video-player" width="1000" style="display: none" controls autoplay>					
+				</video>
+				<hr/>
+				<br/>
+			</div>			
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

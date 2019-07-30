@@ -1,0 +1,143 @@
+arun@Inspiron-5520:~/ethereum-video-dapp$ truffle deploy --network ropsten
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        6092721
+   > block timestamp:     1564503360
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.935918191999999999
+   > gas used:            269908
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000539816 ETH
+
+   -------------------------------------
+   > Total cost:         0.000539816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'VideoToken'
+   ----------------------
+   > block number:        6092723
+   > block timestamp:     1564503370
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.935109085999999999
+   > gas used:            377519
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000755038 ETH
+
+
+   Deploying 'VideoTokenSale'
+   --------------------------
+   > block number:        6092724
+   > block timestamp:     1564503380
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.933958833999999999
+   > gas used:            575126
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001150252 ETH
+
+   -------------------------------------
+   > Total cost:          0.00190529 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.002445106 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x52eb22199912a0cb1e0a4e800124b87d8c5e28340bc05b08936ce88368710904
+   > Blocks: 1            Seconds: 17
+   > contract address:    0x05814DB6Fb0ddb8d737F25a831aAB2eA5485aD03
+   > block number:        6092727
+   > block timestamp:     1564503405
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.930759847999999999
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'VideoToken'
+   ----------------------
+   > transaction hash:    0x6752c642e80866190a4c70644c314d23e27cc400ba410bbca7cbd854c509fdfc
+   > Blocks: 1            Seconds: 17
+   > contract address:    0x2506A00C792d685687166dA308E74d07feEb622C
+   > block number:        6092732
+   > block timestamp:     1564503454
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.921468787999999999
+   > gas used:            422519
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00845038 ETH
+
+
+   Deploying 'VideoTokenSale'
+   --------------------------
+   > transaction hash:    0x94c0209b05ae13ec26c5fc143e9118efda6238d4d74a6bbd1138128635db0972
+   > Blocks: 1            Seconds: 29
+   > contract address:    0x1810e4AbAc7a2F55bFd6D7eB29D0aeEF10644eFE
+   > block number:        6092735
+   > block timestamp:     1564503469
+   > account:             0xa5C6873A9aCe4f3C8bEB6864694CA70780fd83BC
+   > balance:             6.909066267999999999
+   > gas used:            620126
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01240252 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0208529 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.02655106 ETH
+
