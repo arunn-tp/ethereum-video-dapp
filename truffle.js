@@ -1,5 +1,5 @@
-var HDWalletProvider = require("truffle-hdwallet-provider");
-const MNEMONIC = 'Are you gonna believe me, if i tell you this is a legit twelve word hash';
+//var HDWalletProvider = require("truffle-hdwallet-provider");
+//const MNEMONIC = 'Are you gonna believe me, if i tell you this is a legit twelve word hash';
 
 module.exports = {
 	networks:{
