@@ -38,6 +38,7 @@ $ ipfs daemon
 	*let the daemon be running on this tab.*
 
 **4.** Open new tab and run the following commands
+
 	$ ipfs add ~/ethereum-video-dapp/resource/poster.jpg
 		*output:*
 			*added QmVwSBWS7jqnvPRyM4hvMHNVb5PfDiCESiM1P6mztpbvLV poster.jpg
