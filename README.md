@@ -75,5 +75,5 @@ $ ipfs daemon
 
 The app should now be running on your local web server.
 
-*Thank You
-Arun Thara Purath*
+*Thank You*
+	*Arun Thara Purath*
