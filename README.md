@@ -16,9 +16,11 @@ This Tokens is gone to the content creator, in our case the owner of the contrac
 The videos are hosted on a private IPFS platfrom.
 
 **The Setup**
+
+
 **1.** Git Clone this project to your home directory.
 
-**2.**InterPlanetary File System (IPFS) is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system.
+**2.** InterPlanetary File System (IPFS) is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system.
 
 Please follow this link to install IPFS
 https://docs.ipfs.io/guides/guides/install/
