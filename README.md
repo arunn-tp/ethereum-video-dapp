@@ -54,7 +54,7 @@ $ ipfs daemon
  	Please save the hash "QmdR9mo7Y5avZTDjjDEzHddNDU75GdF7Tkp3YGsTM7GiDt" and paste it on ~/ethereum-video-dapp/src/js/App.js line#34. videoSource:"http://127.0.0.1:8080/ipfs/QmdR9mo7Y5avZTDjjDEzHddNDU75GdF7Tkp3YGsTM7GiDt"
 
 
-**5.** Since i have created custom tokens for the user to interact with the DAPP and buy the video. you need to add the 	   tokens into the blockchain after deploying the DApp on your provate blockchain
+**5.** Since i have created custom tokens for the user to interact with the DAPP and buy the video. you need to add the 	   tokens into the blockchain after deploying the DApp on your private blockchain
 	   
 	   *Ensure GANACHE is running and deployed the code onto your private blockchain*
 	   $ truffle migrate --reset --all
@@ -75,5 +75,5 @@ $ ipfs daemon
 
 The app should now be running on your local web server.
 
-*Thank You*
+*Thank You.*
 	*Arun Thara Purath*
