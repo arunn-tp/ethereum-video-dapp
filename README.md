@@ -17,7 +17,6 @@ The videos are hosted on a private IPFS platfrom.
 
 **The Setup**
 
-
 **1.** Git Clone this project to your home directory.
 
 **2.** InterPlanetary File System (IPFS) is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system.
@@ -77,5 +76,10 @@ $ ipfs daemon
 
 The app should now be running on your local web server.
 
+**PS :** *please ensure that privacy mode in Metamask is unchecked*
+*Open Metamask in Chrome > Settings > Security and Privacy > uncheck Privacy Mode*
+
+
+----
 *Thank You.*
 	*Arun Thara Purath*
