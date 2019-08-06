@@ -64,7 +64,7 @@ App={
 			});
 		})
 		.done(function(){
-			$.getJSON("VideoTokenSale.json", function(videoToken){
+			$.getJSON("VideoToken.json", function(videoToken){
 				App.contracts.VideoToken = TruffleContract(videoToken);
 				App.contracts.VideoToken.setProvider(App.web3Provider);
 				App.contracts.VideoToken.deployed().then(function(videoToken){
