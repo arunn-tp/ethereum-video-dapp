@@ -76,7 +76,7 @@ $ ipfs daemon
 
 The app should now be running on your local web server.
 
-**PS :** *please ensure that privacy mode in Metamask is unchecked*
+**PS :** *please ensure that privacy mode in Metamask is unchecked.*
 *Open Metamask in Chrome > Settings > Security and Privacy > uncheck Privacy Mode*
 
 
